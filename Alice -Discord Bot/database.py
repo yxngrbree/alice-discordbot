@@ -1,0 +1,1 @@
+answers = ["yessir","hell nah","sure g","not sure","yeah","yup"]
