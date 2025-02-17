@@ -20,7 +20,7 @@ bot = commands.Bot(command_prefix="/", intents=intents)
 async def on_ready():
     await bot.tree.sync()
     print(f'We have logged in as {bot.user}')
-    await bot.change_presence(activity=discord.Game('Genshin Impact'))
+    await bot.change_presence(activity=discord.Game('Game name'))
     try:
         synced = await bot.tree.sync()
         print(f'Synced {len(synced)} command(s)')
@@ -31,21 +31,21 @@ async def on_ready():
 async def strike(interaction: discord.Interaction, player: discord.Member):
     user_name = interaction.user.display_name
     player_name = player.display_name
-    embed = discord.Embed(title=f"{user_name} launched a dildo to {player_name}")
-    image_url = "https://media1.tenor.com/m/ppMPMVR2SpMAAAAd/dildo-gun.gif"
+    embed = discord.Embed(title=f"{user_name} launched a missle to {player_name}")
+    image_url = "url"
     embed.set_image(url=image_url)
     await interaction.response.send_message(embed=embed)
 
-@bot.tree.command(name="oil-up", description="oil up another hommie")
+@bot.tree.command(name="killoff", description="")
 async def strike(interaction: discord.Interaction, player: discord.Member):
     user_name = interaction.user.display_name
     player_name = player.display_name
-    embed = discord.Embed(title=f"{user_name} oiled {player_name}")
+    embed = discord.Embed(title=f"{user_name} finnished {player_name}")
     image_url = "https://media1.tenor.com/m/CXOItGL-rjwAAAAC/dad-noel-noeldeyzel.gif"
     embed.set_image(url=image_url)
     await interaction.response.send_message(embed=embed)
 
-@bot.tree.command(name="punish", description="drill someones arse/")
+@bot.tree.command(name="punish", description="")
 async def strike(interaction: discord.Interaction, player: discord.Member):
     user_name = interaction.user.display_name
     player_name = player.display_name
@@ -69,12 +69,12 @@ async def strike(interaction: discord.Interaction, player: discord.Member):
     user_name = interaction.user.display_name
     player_name = player.display_name
     embed = discord.Embed(title=f"{user_name} lured {player_name}")
-    image_url = "https://media1.tenor.com/m/Meo_9L0TqfAAAAAC/gypsy-belly-dancing.gif"
+    image_url = ""
     embed.set_image(url=image_url)
     await interaction.response.send_message(embed=embed)
 
 
-@bot.tree.command(name="assert-dominance", description="who's the boss now ?")
+@bot.tree.command(name="assert-dominance", description="")
 async def strike(interaction: discord.Interaction, player: discord.Member):
     user_name = interaction.user.display_name
     player_name = player.display_name
@@ -90,7 +90,7 @@ async def strike(interaction: discord.Interaction, player: discord.Member):
 async def wisdom(interaction: discord.Interaction, question: str):
     response = random.choice(answers)
     display_name = interaction.user.display_name
-    await interaction.response.send_message(f'**{display_name}** asked: {question}\n**Committee of united blacks** says: {response}')
+    await interaction.response.send_message(f'**{display_name}** asked: {question}\n**Committee** says: {response}')
 
  #spam
 
@@ -107,7 +107,7 @@ async def strike(interaction: discord.Interaction, player: discord.Member):
     user_name = interaction.user.display_name
     player_name = player.display_name
     embed = discord.Embed(title=f"{user_name} finished {player_name}")
-    image_url = "https://cdn.hentaigifz.com/20484/doggystyle001.gif"
+    image_url = ""
     embed.set_image(url=image_url)
     await interaction.response.send_message(embed=embed)
 
