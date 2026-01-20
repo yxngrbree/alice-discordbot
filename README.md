@@ -1,5 +1,5 @@
 # alice-discordbot
-Alice - Your all in one servant 
+ 
 
 # This Python script is designed to create a Discord bot using the discord.py library. It showcases the use of environment variables, asynchronous programming, and the discord.py commands extension for creating and handling bot commands. The script initializes a bot with a specific command prefix ("/") and sets up intents to allow for message content processing. It includes a predefined list of responses that the bot can use to reply to user messages.
 
