@@ -1,12 +1,43 @@
-# alice-discordbot
- 
+# Alice Discord Bot
 
-# This Python script is designed to create a Discord bot using the discord.py library. It showcases the use of environment variables, asynchronous programming, and the discord.py commands extension for creating and handling bot commands. The script initializes a bot with a specific command prefix ("/") and sets up intents to allow for message content processing. It includes a predefined list of responses that the bot can use to reply to user messages.
+A **multifunctional Discord bot** written in Python using the `discord.py` library. This project demonstrates a foundational bot setup with commands, intents, and reply handling — a good starting point for expanding with more features.
 
-Key Features:
+---
 
-- Sets up a Discord bot with custom command prefix and intents to handle message content.
-- Registers an event listener for the bot's readiness state, printing a log message upon successful connection and setting the bot's presence to a specific game.
-- Attempts to sync application commands with the Discord API and handles potential errors gracefully.
+## 📌 About
 
-This script serves as a foundational example for creating Discord bots with discord.py, demonstrating basic bot setup, event handling, and command synchronization. It's suitable for developers looking to get started with Discord bot development or seeking to understand the basics of asynchronous programming with discord.py.
+This script initializes a Discord bot with:
+
+- A custom command prefix (`/`)
+- Intents to handle message content
+- A basic set of responses
+- Asynchronous programming via `discord.py`
+
+It prints a ready message when connected, sets a presence status, and syncs application commands with Discord. :contentReference[oaicite:1]{index=1}
+
+---
+
+## ⚙️ Features
+
+- Connects and logs the bot’s online status  
+- Uses command prefix and slash commands  
+- Handles user messages with basic responses  
+- Demonstrates use of asynchronous behavior in Discord bots  
+
+---
+
+## 🧠 Requirements
+
+- Python 3.8+
+- `discord.py`
+
+Install Discord.py with:
+```
+pip install discord.py
+```
+Create a .env file in the root directory with your bot token:
+```
+DISCORD_TOKEN=your_token_here
+
+```bash
+pip install discord.py
